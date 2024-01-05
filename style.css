@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.boxbig {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    background-color: aqua;
+}
+
+.box {
+    width: 2000px;
+    display: flex;
+}
+
+.child {
+    text-align: center;
+    line-height: 300px;
+    width: 400px;
+    height: 300px;
+    background-color: blueviolet;
+    transition: all 0.5s ease;
+    color: white;
+    font-size: 40px;
+}
+
+.buttons {
+    width: 400px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    background-color: rgb(30, 129, 210);
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+}
+img{
+    width: 400px;
+}
+.container{
+    width: 40%;
+    margin: 10px auto;
+}
